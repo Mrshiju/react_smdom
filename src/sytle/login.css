@@ -1,0 +1,39 @@
+#root .Login{
+    background: -webkit-linear-gradient(left, red , blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,rgba(255,4,4,0.3) , rgba(79, 194, 13, 0.4),rgba(207, 36, 164, 0.4)); /* 标准的语法 */
+    /* background-color: yellow; */
+    height:100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+    float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+    width: 100%;
+}
+.form{
+    width: 300px;
+    height: 300px;
+    border: 1px #ccc solid;
+    text-align: center;
+    /* display: flex; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: #ccc;
+    opacity: .9;
+    line-height:300px;
+    padding-top: 30px;
+}
+.ant-btn{
+    width: 100%;
+}
